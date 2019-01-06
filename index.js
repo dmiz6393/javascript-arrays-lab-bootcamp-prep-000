@@ -5,4 +5,7 @@ function destructivelyAppendKitten(name){
   return array;
 }
 
-destructivelyPrependKitten()
+destructivelyPrependKitten(name);{
+  array.unshift(name);
+  return array;
+}

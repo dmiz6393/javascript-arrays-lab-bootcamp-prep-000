@@ -22,5 +22,3 @@ return kittens;
 function appendKitten(Broom) {
   return [...kittens, Broom]
 }
-
-function 

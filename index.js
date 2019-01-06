@@ -10,7 +10,11 @@ function destructivelyPrependKitten(Bob){
   return kittens;
 }
 
-function destructivelyRemoveLastKitten(Garfield) {
-  kittens.pop(Garfield)
-  return kittens
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
 }
+function destructivelyRemoveFirstKitten() {
+kittens.shift();
+return kittens; 
+} 

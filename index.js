@@ -20,7 +20,7 @@ return kittens;
 } 
  
 function appendKitten(Broom) {
-  return [...kittens, Broom]
+  return [...kittens, Broom];
 }
 
 function prependKitten(Arnold) {
@@ -28,5 +28,7 @@ function prependKitten(Arnold) {
 }
 
 function removeLastKitten(){
-  return kittens.slice(2)
+  return kittens.slice(2);
 }
+
+
